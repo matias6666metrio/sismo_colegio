@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bu80ig07bxagh"]
+
+[ext_resource type="Script" uid="uid://dfsklye4iuhl0" path="res://scripts/resultados.gd" id="1_bjd05"]
+
+[node name="Resultados" type="Control" unique_id=1790818205]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_bjd05")

@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dmfe15nh8ryvu"]
+
+[ext_resource type="Script" uid="uid://be61ahr8cuj0m" path="res://scripts/companero.gd" id="1_38add"]
+
+[node name="Compañero" type="Node2D" unique_id=340702424]
+script = ExtResource("1_38add")

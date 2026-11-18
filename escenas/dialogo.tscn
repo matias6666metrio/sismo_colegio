@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://rpo33vomrfsm"]
+
+[ext_resource type="Script" uid="uid://dwovo6kmeiirj" path="res://scripts/dialogo.gd" id="1_l0sow"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u5bk5"]
+content_margin_left = 6.0
+content_margin_top = 6.0
+content_margin_right = 6.0
+content_margin_bottom = 6.0
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(1, 1, 1, 1)
+
+[node name="Dialogo" type="CanvasLayer" unique_id=1458932036]
+script = ExtResource("1_l0sow")
+
+[node name="Panel" type="PanelContainer" parent="." unique_id=86352307]
+custom_minimum_size = Vector2(0, 64)
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_u5bk5")
+
+[node name="Caja" type="VBoxContainer" parent="Panel" unique_id=1762211012]
+layout_mode = 2
+
+[node name="Texto" type="Label" parent="Panel/Caja" unique_id=1680490442]
+layout_mode = 2
+theme_override_font_sizes/font_size = 9
+autowrap_mode = 3
+
+[node name="Opciones" type="VBoxContainer" parent="Panel/Caja" unique_id=65908524]
+layout_mode = 2
